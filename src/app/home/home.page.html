@@ -4,16 +4,26 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">home</ion-title>      
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
 
-  <div id="container">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        Texto1
+      </ion-col>
+      <ion-col>
+        Texto2
+      </ion-col>
+    </ion-row>
+    
+    <ion-row>
+      <ion-col>
+        Texto3
+      </ion-col>
+      <ion-col>
+        Texto4
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-  <button ion-button [routerLink]="['/customers']"class="btn">Go to customers</button>
-
-</div>
 </ion-content>
